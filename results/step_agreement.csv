@@ -1,0 +1,5 @@
+metric,mean
+step_type_agreement,0.972458407980908
+step_type_agreement_nonempty,0.9692741341991342
+step_joint_agreement,0.90057537
+step_joint_agreement_nonempty,0.88161448

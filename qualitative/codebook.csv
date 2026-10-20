@@ -1,0 +1,13 @@
+rq2_area,code,description,application_criterion,M1,M2,M3,M4,M5,n_of_5,illustrative_quotation
+Changes,C1,From producing to reviewing,Participant describes their own task as reviewing/correcting a draft rather than composing the analysis,1,1,1,1,1,5,I correct rather than compose. (M2)
+Changes,C2,Fewer disagreements to reconcile,Participant reports fewer or shorter reconciliation discussions between measurers,1,1,1,1,0,4,"We all start from the same draft, so we argue less about names. (M1)"
+Changes,C3,Requirements weaknesses made visible,Participant attributes tool errors or difficulties to weaknesses of the use-case text,0,1,1,1,0,3,"When the tool gets it wrong, the use case was often poorly written. (M4)"
+Benefits,B1,Transparency of the step-by-step analysis,Participant values seeing the step-by-step analysis and being able to intervene at a step,1,1,1,1,1,5,"I can see why it counted that movement, and I can intervene at that point. (M3)"
+Benefits,B2,Time saved,Participant reports time saved per measurement or per release,1,1,1,1,1,5,A document that used to take me a morning now takes an hour of review. (M2)
+Benefits,B3,Support for learning,Participant reports that the draft helped them or a colleague learn COSMIC conventions,0,0,1,0,1,2,I used to apply the error-message rule from memory; seeing it applied each time helped me understand it. (M5)
+Benefits,B4,Confidentiality and control,Participant values that requirements stay on premises / under company control,1,1,0,1,0,3,The requirements do not leave here. That was non-negotiable. (M1)
+Frictions,F1,Use-case writing quality,Participant reports that poorly written use cases degrade the draft,1,0,1,1,1,4,The tool is only as good as the sentence it reads. (M4)
+Frictions,F2,Inconsistent DG/OOI naming,Participant reports variation in data-group / object-of-interest naming between draft and team conventions,0,1,1,1,0,3,It is not that it gets the names wrong. It does not always use one name for one thing. (M3)
+Frictions,F3,Prompt and example maintenance,Participant anticipates effort to update prompts or examples for new domains or templates,1,0,0,1,0,2,"Every new domain needs its own examples, and I have to write them myself. (M1)"
+Frictions,F4,Local-inference operational burden,Participant reports the burden of operating the local inference server,0,1,0,1,0,2,"Keeping the machine running is my responsibility, and nobody had told me that. (M4)"
+Frictions,F5,Vigilance during review,Participant reports the need to stay alert because a wrong draft looks plausible,1,0,1,0,1,3,It looks plausible even when it is wrong: that is the risk. (M5)

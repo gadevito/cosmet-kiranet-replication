@@ -1,0 +1,13 @@
+,N_rows,N_with_count,new_process,not_retrievable,median_changed_steps,Q1,Q3,min,max,mean_changed_steps,median_share,mean_share,zero_changed,level,project
+Manual (Phase 1),200.0,189.0,8.0,3.0,2.0,1.0,3.0,1.0,8.0,2.37,0.333,0.349,0.0,phase,
+Assisted (Phase 2),200.0,191.0,7.0,2.0,2.0,1.0,3.0,0.0,8.0,2.38,0.333,0.376,4.0,phase,
+Assisted (Phase 2),50.0,47.0,2.0,1.0,3.0,2.0,3.0,0.0,8.0,2.83,0.429,0.438,1.0,project,P2
+Manual (Phase 1),50.0,47.0,3.0,0.0,2.0,1.0,4.0,1.0,8.0,2.77,0.4,0.384,0.0,project,P2
+Assisted (Phase 2),45.0,44.0,1.0,0.0,2.0,1.75,3.0,1.0,6.0,2.5,0.375,0.403,0.0,project,P3
+Manual (Phase 1),45.0,44.0,1.0,0.0,2.0,1.0,3.0,1.0,6.0,2.3,0.333,0.354,0.0,project,P3
+Assisted (Phase 2),55.0,53.0,2.0,0.0,2.0,2.0,3.0,0.0,6.0,2.38,0.4,0.384,2.0,project,P4
+Manual (Phase 1),55.0,51.0,2.0,2.0,2.0,1.0,3.5,1.0,7.0,2.65,0.375,0.385,0.0,project,P4
+Assisted (Phase 2),50.0,47.0,2.0,1.0,1.0,1.0,3.0,0.0,5.0,1.83,0.25,0.281,1.0,project,P5
+Manual (Phase 1),50.0,47.0,2.0,1.0,1.0,1.0,2.0,1.0,4.0,1.74,0.25,0.272,0.0,project,P5
+first measurement in the period,140.0,131.0,7.0,2.0,2.0,1.0,3.0,1.0,8.0,2.42,0.333,0.383,0.0,phase2_kind,
+re-measurement (version 2-3),60.0,60.0,0.0,0.0,2.0,1.0,3.0,0.0,7.0,2.3,0.333,0.362,4.0,phase2_kind,

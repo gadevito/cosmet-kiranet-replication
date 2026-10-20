@@ -1,0 +1,25 @@
+block,item,value
+scenario,Portfolio size,"6,000 CFP over 6 months"
+scenario,Loaded measurer cost,"EUR 4,800/month = EUR 240/day"
+scenario,"Manual throughput (logged, Phases 0-1)",150 CFP/day
+scenario,Manual effort / cost,"40 pd / EUR 9,600  (EUR 1.60/CFP)"
+scenario,Phase-2 reduction (min-max across projects),60%-85%
+scenario,Assisted effort / cost,"6-16 pd / EUR 1,440-3,840  (EUR 0.24-0.64/CFP)"
+scenario,"Released capacity, this portfolio (scenario)",24-34 pd
+scenario,"Gross saving, this portfolio (scenario)","EUR 5,760-8,160"
+scenario,Annualised gross saving,"EUR 11,520-16,320"
+scenario,Freed capacity per year,48-68 pd = 0.20-0.28 FTE
+scenario,Marginal cost per run,"electricity only (no per-token charge, no licence)"
+ledger,Reduction vs each product's own Phase 1 manual baseline (Sec. VII-B sensitivity; the table uses the pooled 150 CFP/pd),"P2 71.6%, P3 61.1%, P4 84.5%, P5 77.6%  (range 61-84%, rounded after computing)"
+ledger,Phase 2 effort including the 52 independent checks (Sec. VII-B),"2.04 assisted + 2.3 checks = 4.34 pd for 1,200 CFP, 45.8% below the 8 pd implied by the pooled manual baseline (150 CFP/pd)"
+ledger,"Company effort actually spent (Phases 0-2, spot-checks, setup share)",37.3 pd (before adjudication) = 32.0 manual + 2.04 assisted + 2.3 spot-checks + 1.0 setup share
+ledger,"Company Phase 1 discrepancy adjudication (adoption cost, not under FSM, excluded from throughput)",1.0 pd = 4 sessions x ~1 h x 2 company measurers = ~8 person-hours (110 Phase 1 discrepancies)
+ledger,Company total (the paper's approximately 38 person-days),38.3 pd = 32.0 + 2.04 + 2.3 + 1.0 adjudication + 1.0 setup share -> approximately 38 (Sec. VIII-E of the paper)
+ledger,Adoption-period total including academic validation and the non-company setup share (Sec. VIII-E),53.3-55.3 pd = 38.3 + 13 academic validation + 2-4 non-company setup (24-40 h minus the company's 1.0 pd share) -> approximately 53-55
+ledger,"  of which Phase 2 assisted measurement (1,200 CFP)",2.04 pd logged (manual-rate equivalent 8 pd; pooled reduction 74.5%)
+ledger,  of which spot-checks (study cost),2.3 pd
+ledger,"Manual counterfactual for the same 6,000 CFP",40 pd
+ledger,Phase 1 validation effort borne by the academic authors (excluded; distinct from setup),~13 pd
+ledger,"One-off setup (Sec. V-B, all parties)","24-40 h = EUR 720-1,200 at EUR 30/h (reported separately, not deducted)"
+ledger,Hardware,"excluded: the company already operated the inference workstation; the EUR 6,000-8,000 purchase price is hypothetical, not a cost borne by the company"
+ledger,Scenario assumptions,"applies the Phase 2 reduction observed on maintenance work to P1 as well; excludes setup, parallel-run validation, adjudication, independent spot-checks and operating costs; the annualised saving and FTE lines of the scenario block are not in the paper"

@@ -1,0 +1,12 @@
+metric,n,mean,sd,ci95_low,ci95_high,tse_gpt4,tse_in_ci,method,B,seed
+Triggering event  ROUGE-L F1,148,1.0,0.0,1.0,1.0,1.0,yes,cluster percentile,10000,20260629
+Functional user   ROUGE-L F1,148,0.9955,0.0049,0.9909,0.9979,0.998,NO,cluster percentile,10000,20260629
+Data group        ROUGE-L F1,148,0.931,0.0286,0.925,0.9394,0.944,NO,cluster percentile,10000,20260629
+Object of interest ROUGE-L F1,148,0.8546,0.0682,0.847,0.8622,0.845,NO,cluster percentile,10000,20260629
+Data movement     ROUGE-L F1,148,0.9776,0.0549,0.969,0.9836,0.99,NO,cluster percentile,10000,20260629
+Data movement     BLEU-2,148,0.9604,0.0894,0.9493,0.9692,,,cluster percentile,10000,20260629
+Functional user   BERTScore F1,148,0.9973,0.0056,0.9925,1.0,,,cluster percentile,10000,20260629
+Data group        BERTScore F1,148,0.9729,0.0229,0.9669,0.9797,,,cluster percentile,10000,20260629
+Object of interest BERTScore F1,148,0.94,0.0373,0.9262,0.952,,,cluster percentile,10000,20260629
+Data movement     MAE (CFP),148,0.1101,0.2633,0.0914,0.1331,0.038,NO,cluster percentile,10000,20260629
+Data movement     MdAE (CFP),148,0.0,,0.0,0.0,0,yes,cluster percentile,10000,20260629

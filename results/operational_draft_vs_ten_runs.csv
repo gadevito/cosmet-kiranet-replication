@@ -1,0 +1,3 @@
+outputs,measurements,dm_rougeL_f1,mae_cfp,exact_count_rate
+Operational drafts actually reviewed,200,0.982415015,0.08,0.92
+All ten executions of the same measurements,200,0.982381106,0.08150000000000002,0.9185000000000001

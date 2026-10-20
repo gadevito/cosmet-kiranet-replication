@@ -1,0 +1,15 @@
+# Frozen software configuration used for all 10 evaluation runs (frozen 19 Dec 2025, end of Phase 0)
+model                = openai/gpt-oss-20b (Hugging Face)
+model_revision       = 6cee5e81ee83917806bbde320786a8fb61efebee   # HF main, last modified 2025-08-26
+weights_format       = MXFP4 MoE weights as published (3 safetensors shards, ~13 GB on disk)
+vram_at_runtime      = ~28.8 GB (weights ~13 GB + KV cache pre-allocated by vLLM at --gpu-memory-utilization 0.90)
+vllm                 = 0.11.0            # gpt-oss / Harmony support since 0.10.1 (Aug 2025)
+openai_harmony       = 0.0.4             # pulled in by vLLM for gpt-oss
+torch                = 2.8.0+cu128
+cuda_toolkit         = 12.8
+nvidia_driver        = 580.65.06
+python               = 3.12.3
+os                   = Ubuntu 24.04.2 LTS, kernel 6.8
+openai_python_client = 1.54.0            # CosMet client -> OpenAI-compatible endpoint
+cosmet_client        = CosMet (TSE version, commit tagged tse-2025), pipeline unchanged; only the backend URL/model name changed
+bert_score           = 0.3.13 with bert-base-multilingual-cased (use cases are in Italian)
